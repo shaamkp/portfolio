@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  outline: none;
+  font-family: robotoregular;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+header,
+section,
+article,
+aside,
+nav,
+footer,
+address {
+  display: block;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: robotoregular, "open_sansregular", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 44px;
+  font-family: "robotobold";
+  color: #363636;
+}
+
+h2 {
+  font-size: 39px;
+  font-family: "robotobold";
+  color: #363636;
+}
+
+h3 {
+  font-size: 39px;
+  font-family: "robotobold";
+  color: #363636;
+}
+
+h4 {
+  font-size: 26px;
+  font-family: "robotobold";
+  color: #363636;
+}
+
+h5 {
+  font-size: 22px;
+  font-family: "robotoregular";
+  color: #363636;
+}
+
+h6 {
+  font-size: 19px;
+  font-family: "robotoregular";
+  color: #363636;
+}
+
+p {
+  font-size: 20px;
+  font-family: "robotoregular";
+  color: #363636;
+  line-height: 2em;
+}
+
+a {
+  color: #363636;
+  font-family: "robotoregular";
+  font-size: 22px;
+}
+
+a.button {
+  color: #fff;
+  background-color: #3f3d56;
+  padding: 15px 35px;
+  border-radius: 40px;
+  font-weight: 500;
+  display: inline-block;
+  font-family: "robotoregular";
+  font-size: 18px;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+a:hover,
+[type="submit"]:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+@font-face {
+  font-family: "robotoregular";
+  src: url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotomedium";
+  src: url("../fonts/roboto/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotobold";
+  src: url("../fonts/roboto/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main {
+  position: relative;
+}
+
+#main img.background {
+  position: absolute;
+  top: -197px;
+  right: -284px;
+  width: 70%;
+  z-index: -2;
+}
+
+#main header section.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+}
+
+#main header h1.left {
+  width: 5%;
+}
+
+#main header h1.left a {
+  display: inline-block;
+}
+
+#main header h1.left a img {
+  width: 100%;
+  display: block;
+}
+
+#main header nav.right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main header nav.right ul li {
+  margin-right: 40px;
+}
+
+#main header nav.right ul li:last-child {
+  margin-right: 0;
+}
+
+#main header nav.right ul li a {
+  font-size: 15px;
+}
+
+#main section.spotlight div.content {
+  width: 35%;
+  margin-left: 45px;
+}
+
+#main section.spotlight div.content h1 {
+  margin-bottom: 50px;
+}
+
+#main section.spotlight div.content p {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#main section.spotlight div.content ul {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main section.spotlight div.content ul li {
+  margin-right: 40px;
+}
+
+#main section.spotlight div.content ul li:last-child {
+  margin-right: 0;
+}
+
+#main section.spotlight div.content ul li a {
+  display: block;
+}
+
+#main section.spotlight div.content ul li a img {
+  width: 100%;
+  display: block;
+}
+
+#skills {
+  margin: 290px 0 150px;
+}
+
+#skills div.top h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+
+#skills div.bottom div.items1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+#skills div.bottom div.left {
+  width: 43%;
+}
+
+#skills div.bottom div.left img {
+  display: block;
+  width: 100%;
+}
+
+#skills div.bottom div.right {
+  width: 43%;
+}
+
+#skills div.bottom div.items2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#skills div.bottom div.items2 div.left {
+  width: 43%;
+}
+
+#skills div.bottom div.items2 div.right {
+  width: 43%;
+}
+
+#skills div.bottom div.items3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+#skills div.bottom div.items3 div.left {
+  width: 43%;
+}
+
+#skills div.bottom div.items3 div.right {
+  width: 43%;
+}
+
+#works {
+  position: relative;
+}
+
+#works div.top h2 {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+#works div.middle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#works div.middle ul li {
+  width: 47%;
+  margin-bottom: 70px;
+}
+
+#works div.middle ul li:nth-child(2) {
+  margin-top: -70px;
+  margin-bottom: 0;
+}
+
+#works div.middle ul li:nth-child(3) {
+  margin-bottom: 0px;
+}
+
+#works div.middle ul li :nth-child(4) {
+  margin-bottom: 0px;
+  margin-top: -70px;
+}
+
+#works div.middle ul li img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#works div.bottom {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#works div.bottom a.button {
+  border-radius: 20px;
+}
+
+#project {
+  margin-top: 300px;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+#project div.content {
+  width: 40%;
+}
+
+#project div.content h2 {
+  margin-bottom: 50px;
+}
+
+#project div.content a.button {
+  border-radius: 20px;
+}
+
+#project div.content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+#project div.content ul li {
+  margin-right: 40px;
+}
+
+#project div.content ul li:last-child {
+  margin-right: 0px;
+}
+
+#project div.content ul li a img {
+  display: block;
+  width: 100%;
+}
+
+#project img.background {
+  position: absolute;
+  top: -331px;
+  right: -388px;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */
